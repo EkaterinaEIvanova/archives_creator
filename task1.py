@@ -85,7 +85,7 @@ def create_archives():
         create_xml_files()
         os.chdir("..")
         create_archive(i)
-        # os.remove(f"folder_{i}")
+        os.remove(f"folder_{i}")
 
 
 if __name__ == '__main__':
